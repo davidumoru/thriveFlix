@@ -1,0 +1,118 @@
+body {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image:url(./images/topographic-contour-lines-map-seamless-pattern_1284-52862.avif)
+}
+
+p {
+    margin: 0 0 20px ;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+img {
+    height: 30px;
+    width: auto;
+}
+
+.white-svg {
+    filter: brightness(0) invert(1);
+  }
+  
+
+.form-container {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 35rem;
+    background-color: rgb(21,20,20);
+    padding: 10rem;
+    margin-top: 4rem;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.styling-container {
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+input, select {
+    background-color: white;
+    border-radius: 30px;
+    height: 20px;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(21,20,20);
+    font-size: 20px;
+    outline: none;
+  } 
+
+select {
+    padding: 30px;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#number {
+    width: 70%;
+}
+
+#mobile {
+    width: 30%;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.address input {
+    width: 100%;
+}
+
+.buttons {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+}
+
+button {
+    background-color: rgb(1,216,89);
+    border-radius: 30px;
+    padding: 22px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-width: 0;
+}
+
+#plain {
+    background-color: rgb(21,20,20);
+    border-color: white;
+    border-width: 2px;
+}
+
+button:hover, #plain:hover {
+    background-color: greenyellow;
+}
