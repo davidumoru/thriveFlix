@@ -5,6 +5,13 @@ body {
   color: white;
 }
 
+h1 {
+  color: #E91E63;
+  font-size: 5rem;
+  margin: 2rem;
+  text-align: center;
+}
+
 #card-container {
   display: flex;
   flex-wrap: wrap;
