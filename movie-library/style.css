@@ -1,13 +1,21 @@
 body {
-    background: linear-gradient(to bottom, #000000, #660066);
-    color: white;
-  }
-  
-  .movie-card {
-    background-color: darkgray;
-    width: 10rem;
-    height: 10rem;
-    padding: 5rem;
-    margin: 2rem;
-    border-radius: 20px;
-  }  
+  background: linear-gradient(to bottom, #1e1f26, #000000);
+  background-color: #ff0080;
+  background-blend-mode: multiply;
+  color: white;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20rem;
+}
+
+.movie-card {
+  background: #212121;
+  width: 10rem;
+  height: 10rem;
+  padding: 5rem;
+  margin: 2rem;
+  border-radius: 20px;
+}  
