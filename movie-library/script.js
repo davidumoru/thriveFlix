@@ -113,6 +113,7 @@ function displayMovieCard(movies) {
     const movie = movies[i];
 
     const movieDetails = document.createElement('div');
+    movieDetails.classList.add('movie-card');
 
     const title = document.createElement('h2');
     title.textContent = movie.title;
