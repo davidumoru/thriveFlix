@@ -105,3 +105,29 @@ const movies = [
       posterImage: "inglourious_basterds.jpg"
     }
   ];  
+
+const movieCard = document.getElementById('movie-card');
+
+function displayMovieCard(movies) {
+  for (let i = 0; i < movies.length; i++) {
+    const movie = movies[i];
+
+    const movieDetails = document.createElement('div');
+
+    const title = document.createElement('h2');
+    title.textContent = movie.title;
+    movieDetails.appendChild(title);
+
+    const year = document.createElement('p');
+    year.textContent = `Year: ${movie.year}`;
+    movieDetails.appendChild(year);
+
+    const genre = document.createElement('p');
+    genre.textContent = `Genre: ${movie.genre}`;
+    movieDetails.appendChild(genre);
+
+    movieCard.appendChild(movieDetails);
+  }
+}
+
+displayMovieCard(movies);
