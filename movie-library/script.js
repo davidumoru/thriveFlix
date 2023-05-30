@@ -106,7 +106,7 @@ const movies = [
     }
   ];  
 
-const movieCard = document.getElementById('movie-card');
+const movieCard = document.getElementById('card-container');
 
 function displayMovieCard(movies) {
   for (let i = 0; i < movies.length; i++) {
