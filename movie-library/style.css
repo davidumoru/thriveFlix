@@ -3,3 +3,11 @@ body {
     color: white;
   }
   
+  .movie-card {
+    background-color: darkgray;
+    width: 10rem;
+    height: 10rem;
+    padding: 5rem;
+    margin: 2rem;
+    border-radius: 20px;
+  }  
